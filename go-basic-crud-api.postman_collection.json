@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "62c5d834-23dd-47f6-9b07-773901d5147a",
+		"name": "go-basic-crud-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all movies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get one movie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/movies/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"movies",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"isbn\": \"100003\",\n    \"title\": \"Jaws\",\n    \"director\" : {\n        \"firstname\": \"FF\", \n        \"lastname\": \"Copolla\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8083/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a movie",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"60496781\",\n    \"isbn\": \"888888888-8888888\",\n    \"title\": \"Jawzzzzzzzzs\",\n    \"director\" : {\n        \"firstname\": \"FF\", \n        \"lastname\": \"Copolla\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8083/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a movie",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"60496781\",\n    \"isbn\": \"888888888-8888888\",\n    \"title\": \"Jawzzzzzzzzs\",\n    \"director\" : {\n        \"firstname\": \"FF\", \n        \"lastname\": \"Copolla\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8083/movies/18569639",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"movies",
+						"18569639"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
