@@ -1,8 +1,8 @@
 # Basic CRUD API in Go (go-basic-crud-api)
 
-Thanks to https://github.com/AkhilSharma90
+Thanks to [Akhil Sharma](https://github.com/AkhilSharma90)
 
-Code written following the training course of freeCodeCamp.org : Learn Go Programming by Building 11 Projects – Full Course - https://www.youtube.com/watch?v=jFfo23yIWac
+Code written following his training course available on freeCodeCamp.org : [Learn Go Programming by Building 11 Projects – Full Course](https://www.youtube.com/watch?v=jFfo23yIWac)
 
 ## Purpose of the project
 This project goal is to cover CRUD operations for a movie collection. These operations are performed on a slice containing the movies.
