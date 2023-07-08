@@ -17,15 +17,3 @@ We use here [gorilla/mux](https://github.com/gorilla/mux) HTTP router.
 
 ## Test of the routes
 Perfomed with Postman
-
-
-## Specific
-As I was working o a specific workspace on my computer, and not the one that is set by default for GO, I add to change the env settings. 
-First, I check the env variables of Go with this command :
-```
-go env
-```
-Then I set the GO111MODULE to "Auto" with this command : 
-```
-go env -w GO111MODULE=auto
-```
